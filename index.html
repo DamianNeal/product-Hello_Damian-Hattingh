@@ -8,10 +8,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script src="index.js" defer></script>
+    <title></title>
   </head>
 
-  <body class="font-[Poppins] bg-gradient-to-t from-[#00d4ff] to-[#f6fff7] h-screen">
-    <header class="bg-white">
+  <body class="font-[Poppins] bg-gradient-to-t from-[#00d4ff] to-[#f6fff7] min-h-screen">
+    <header class="bg-white mb-20">
         <nav class="flex justify-between items-center w-[92%] mx-auto">
             <div class="">
                 <img class="w-16" src="./img/hello.png" alt="logo">
@@ -42,5 +43,29 @@
             </div>
         </nav>
     </header>
+    <section class="Product " id="Product">
+        <div class="container bg-white py-5 px-5 rounded-full w-250 m-auto">
+            <div class="product-content flex justify-center items-center">
+                <img src="./img/hello.png" alt="Hello SIM Card" class="h-100 ml-20">
+                <div class="flex flex-col">
+                    <p class="product-dis font-[Poppins] flex justify-center p-10 text-center">
+                        Say to the future of connectivity! With Hello's 5G SIM card,
+                        experience lightning-fast speeds, crystal-clear streaming, and seamless browsing like never before.
+                        Designed to keep you connected in a world that moves at the speed of life,
+                        Hello is your gateway to the ultimate 5G experience. Switch to Hello and say hello to the future today!
+                    </p>
+                    <button class="shop_btn bg-[#00d4ff] text-white px-5 py-2 rounded-full hover:bg-[#80bac6] w-50 m-auto" onclick="shop()">Shop</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="feature-icons flex p-20 justify-between">
+            <img src="./img/connectivity.png" class="w-40 h-40"></img>
+            <img src="./img/lte.png" class="w-40 h-40"></img>
+            <img src="./img/wifi.png" class="w-40 h-40"></img>
+            <img src="./img/sim.png" class="w-40 h-40"></img>
+        </div>
+    </section>
   </body>
 </html>
